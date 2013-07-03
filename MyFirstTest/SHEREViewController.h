@@ -10,4 +10,6 @@
 
 @interface SHEREViewController : UIViewController
 
+-(IBAction)clickTheButton:(id)sender;
+
 @end

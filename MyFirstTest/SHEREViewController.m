@@ -14,6 +14,12 @@
 
 @implementation SHEREViewController
 
+
+- (IBAction)clickTheButton:(id)sender
+{
+    NSLog(@"This is a Git Tutorial");
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
