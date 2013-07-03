@@ -23,6 +23,7 @@
 		2F040A18178412B100CE6B11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0409F3178412B100CE6B11 /* Foundation.framework */; };
 		2F040A20178412B100CE6B11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F040A1E178412B100CE6B11 /* InfoPlist.strings */; };
 		2F040A23178412B100CE6B11 /* MyFirstTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F040A22178412B100CE6B11 /* MyFirstTestTests.m */; };
+		2F3C9BBF17845E01005030BF /* MyFirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C9BBE17845E01005030BF /* MyFirstClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		2F040A1F178412B100CE6B11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2F040A21178412B100CE6B11 /* MyFirstTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstTestTests.h; sourceTree = "<group>"; };
 		2F040A22178412B100CE6B11 /* MyFirstTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstTestTests.m; sourceTree = "<group>"; };
+		2F3C9BBD17845E01005030BF /* MyFirstClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFirstClass.h; sourceTree = "<group>"; };
+		2F3C9BBE17845E01005030BF /* MyFirstClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFirstClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				2F040A0C178412B100CE6B11 /* SHEREViewController.h */,
 				2F040A0D178412B100CE6B11 /* SHEREViewController.m */,
 				2F0409F8178412B100CE6B11 /* Supporting Files */,
+				2F3C9BBD17845E01005030BF /* MyFirstClass.h */,
+				2F3C9BBE17845E01005030BF /* MyFirstClass.m */,
 			);
 			path = MyFirstTest;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				2F0409FE178412B100CE6B11 /* main.m in Sources */,
 				2F040A02178412B100CE6B11 /* SHEREAppDelegate.m in Sources */,
 				2F040A0E178412B100CE6B11 /* SHEREViewController.m in Sources */,
+				2F3C9BBF17845E01005030BF /* MyFirstClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +460,7 @@
 				2F040A28178412B100CE6B11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F040A29178412B100CE6B11 /* Build configuration list for PBXNativeTarget "MyFirstTestTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +469,7 @@
 				2F040A2B178412B100CE6B11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -19,6 +19,11 @@
 {
     NSLog(@"This is a Git Tutorial");
 }
+ 
+- (IBAction)clickTheButton2:(id)sender
+{
+    NSLog(@"This is my event");
+}
 
 - (void)viewDidLoad
 {

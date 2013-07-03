@@ -12,4 +12,8 @@
 
 -(IBAction)clickTheButton:(id)sender;
 
+-(IBAction)clickTheButton2:(id)sender;
+
+-(IBAction)turn:(id)sender)
+
 @end
