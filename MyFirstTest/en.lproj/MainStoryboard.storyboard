@@ -35,7 +35,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="QJ2-Cr-Ray"/>
+                                    <action selector="clickTheButton2:" destination="2" eventType="touchUpInside" id="due-xm-5HG"/>
                                 </connections>
                             </button>
                             <datePicker contentMode="scaleToFill" restorationIdentifier="myCalendarPicker" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ULf-9w-iI3">
